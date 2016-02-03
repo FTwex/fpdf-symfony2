@@ -4,29 +4,16 @@ FPDF for use with Symfony2
 Uses FPDF 1.7, tested in Symfony 2.5+
 
 [![Build Status](https://travis-ci.org/FTwex/fpdf-symfony2.svg?branch=master)](https://travis-ci.org/FTwex/fpdf-symfony2)
-[![Latest Stable Version](https://poser.pugx.org/royopa/fpdf-symfony2/v/stable.svg)](https://packagist.org/packages/royopa/fpdf-symfony2) [![Total Downloads](https://poser.pugx.org/royopa/fpdf-symfony2/downloads.svg)](https://packagist.org/packages/royopa/fpdf-symfony2) [![Latest Unstable Version](https://poser.pugx.org/royopa/fpdf-symfony2/v/unstable.svg)](https://packagist.org/packages/royopa/fpdf-symfony2) [![License](https://poser.pugx.org/royopa/fpdf-symfony2/license.svg)](https://packagist.org/packages/royopa/fpdf-symfony2)
+[![Latest Stable Version](https://poser.pugx.org/ftwex/fpdf-symfony2/v/stable.svg)](https://packagist.org/packages/ftwex/fpdf-symfony2) [![Total Downloads](https://poser.pugx.org/ftwex/fpdf-symfony2/downloads.svg)](https://packagist.org/packages/ftwex/fpdf-symfony2) [![Latest Unstable Version](https://poser.pugx.org/ftwex/fpdf-symfony2/v/unstable.svg)](https://packagist.org/packages/ftwex/fpdf-symfony2) [![License](https://poser.pugx.org/ftwex/fpdf-symfony2/license.svg)](https://packagist.org/packages/ftwex/fpdf-symfony2)
 
 ## Instalation and Usage
 
-Package available on [Composer](https://packagist.org/packages/royopa/fpdf-symfony2).
+Package available on [Composer](https://packagist.org/packages/ftwex/fpdf-symfony2).
 
 If you're using Composer to manage dependencies, you can use
 
 ```sh
-composer require royopa/fpdf-symfony2
-```
-
-Setup
------
-
-And those to `app/autoload.php`:
-
-```php
-$classMap = array(
-    'FPDF_' => __DIR__.'/../vendor/royopa/fpdf-symfony2/lib/FPDF/FPDF.php',
-    'FPDI_' => __DIR__.'/../vendor/royopa/fpdf-symfony2/lib/FPDF/FPDI.php'
-);
-$loader->addClassMap($classMap);    
+composer require ftwex/fpdf-symfony2
 ```
 
 Usage
@@ -75,8 +62,8 @@ $loader = require __DIR__.'/../vendor/autoload.php';
 AnnotationRegistry::registerLoader(array($loader, 'loadClass'));
 
 $classMap = array(
-    'FPDF_' => __DIR__.'/../vendor/royopa/fpdf-symfony2/lib/FPDF/FPDF.php',
-    'FPDI_' => __DIR__.'/../vendor/royopa/fpdf-symfony2/lib/FPDF/FPDI.php'
+    'FPDF_' => __DIR__.'/../vendor/ftwex/fpdf-symfony2/lib/FPDF/FPDF.php',
+    'FPDI_' => __DIR__.'/../vendor/ftwex/fpdf-symfony2/lib/FPDF/FPDI.php'
 );
 $loader->addClassMap($classMap);
 

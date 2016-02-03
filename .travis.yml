@@ -13,7 +13,7 @@ script:
   - ./vendor/bin/phpunit --coverage-text
 
 notifications:
-  email: "royopa@gmail.com"
+  email: "ftoueix@nexfol.com"
 
 matrix:
   fast_finish: true

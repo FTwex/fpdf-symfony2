@@ -5,6 +5,7 @@ Uses FPDF 1.7, tested in Symfony 2.5+
 
 [![Build Status](https://travis-ci.org/FTwex/fpdf-symfony2.svg?branch=master)](https://travis-ci.org/FTwex/fpdf-symfony2)
 [![Latest Stable Version](https://poser.pugx.org/ftwex/fpdf-symfony2/v/stable.svg)](https://packagist.org/packages/ftwex/fpdf-symfony2) [![Total Downloads](https://poser.pugx.org/ftwex/fpdf-symfony2/downloads.svg)](https://packagist.org/packages/ftwex/fpdf-symfony2) [![Latest Unstable Version](https://poser.pugx.org/ftwex/fpdf-symfony2/v/unstable.svg)](https://packagist.org/packages/ftwex/fpdf-symfony2) [![License](https://poser.pugx.org/ftwex/fpdf-symfony2/license.svg)](https://packagist.org/packages/ftwex/fpdf-symfony2)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ftwex/fpdf-symfony2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ftwex/fpdf-symfony2/?branch=master)
 
 ## Instalation and Usage
 

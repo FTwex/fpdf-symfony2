@@ -1,5 +1,5 @@
 {
-    "name": "FTwex/fpdf-symfony2",
+    "name": "ftwex/fpdf-symfony2",
     "type": "library",
     "description": "fpdf vendor for use with symfony2, based on royopa/fpdf-symfony2",
     "keywords": ["symfony","fpdf"],
